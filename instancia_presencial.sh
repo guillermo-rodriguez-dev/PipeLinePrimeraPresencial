@@ -1,4 +1,4 @@
-
+#! /bin/bash
 echo "#Prueba que la app compile"
 echo "#Prueban los codigos unitarios"
 echo "#Test de analisis de codigo"
