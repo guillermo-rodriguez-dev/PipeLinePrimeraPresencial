@@ -9,14 +9,13 @@ pipeline {
 
     stage('Validacion') {
       steps {
-        input '¿Apruebas el despliegue?'
+        input 'Â¿Apruebas el despliegue?'
       }
     }
 
     stage('Guardando Datos de despliegue') {
       steps {
-        timestamps()
-        echo 'Confirmacion Manual'
+        echo 'Confirmacion Manual Guardada'
       }
     }
 
