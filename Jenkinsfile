@@ -21,7 +21,7 @@ pipeline {
 
     stage('Desplegando') {
       steps {
-        sh 'script.sh.sh'
+        sh 'script.sh'
       }
     }
 
