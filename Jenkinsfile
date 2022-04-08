@@ -21,7 +21,7 @@ pipeline {
 
     stage('Desplegando') {
       steps {
-        sh 'instancia_presencial.sh'
+        sh 'sh instancia_presencial.sh'
       }
     }
 
